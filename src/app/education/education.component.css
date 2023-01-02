@@ -1,0 +1,207 @@
+.container .row {
+    margin: 20px 0px 20px 0px;
+    background-color: black;
+}
+
+/* .col-lg-12 .title{
+    margin-top: 20px;
+    margin-bottom: 15px;
+} */
+
+.col-lg-12 .title h4{
+    text-align: center;
+    color: white;
+    margin-top: 10px; 
+    margin-bottom: 15px;
+}
+
+.title {
+	position: relative;
+	overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title span:nth-child(1) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to right, #049dff, #049dff);
+	animation: animate1 2s linear;
+}
+
+@keyframes animate1 {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.title span:nth-child(2) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to bottom, #000000, #049dff);
+	animation: animate2 2s linear;
+	animation-delay: 1s;
+}
+@keyframes animate2 {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+.title span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to left, #049dff, #049dff);
+	animation: animate3 2s linear;
+}
+
+@keyframes animate3 {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.title span:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 3px;
+	background: linear-gradient(to top, #000000, #049dff);
+	animation: animate4 2s linear;
+	animation-delay: 1s;
+}
+
+@keyframes animate4 {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
+
+
+.col-lg-6{
+    height: 164px;
+}
+
+.col-lg-6 h5{
+    color: #049dff;
+
+}
+
+.col-lg-6 h6{
+    color: white;
+}
+
+.col-lg-6 .school {
+    text-align: right;
+}
+
+.col-lg-6 .deg{
+    text-align: right;
+}
+
+#col1,#col3,#col5{
+    border-right: 3px solid #049dff;
+    animation: line 1s linear;
+	animation-delay: 0.2s;
+}
+
+@keyframes line {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(-3%);
+	}
+}
+
+.dot1 img{
+    height: 20px;
+    position: absolute;
+    left: 49.3%;
+    top: 24%;
+}
+
+.dot2 img{
+    height: 20px;
+    position: absolute;
+    left: 49.3%;
+    top: 42%;
+}
+
+.dot3 img{
+    height: 20px;
+    position: absolute;
+    left: 49.3%;
+    top: 65%;
+}
+
+@media only screen and (max-width: 600px) {
+    #col2{
+        display: none;
+    }
+    #col3{
+        display: none;
+    }
+    #col1{
+        border: 0px;
+    }
+    #col5{
+        border: 0px;
+    }
+
+    #col6{
+        height: 0px;
+    }
+    .col-lg-6{
+        margin-top: 20px;
+        height:135px;
+    }
+    .col-lg-6 .school,.puc{
+        text-align: center;
+    }
+    .col-lg-6 .deg{
+        text-align: center;
+    }
+
+    .dot1 img{
+        top:22%;
+    }
+    .dot2 img{
+        top:45%;
+    }
+    .dot3 img{
+        top: 69%;
+    }
+
+    .container{
+        height: 570px;
+    }
+    .container .row {
+        margin: 10px 0px 10px 0px;
+        background-color: black;
+    }
+}

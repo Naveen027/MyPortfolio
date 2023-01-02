@@ -1,0 +1,319 @@
+.container .row {
+    margin: 20px 0px 20px 0px;
+    background-color: black;
+}
+
+#col1,#col2{
+    border-right: 3px solid #049dff;
+    animation: line 1s linear;
+	animation-delay: 0.2s;
+}
+@keyframes line {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(-3%);
+	}
+}
+/* .line {
+    border: 1px solid aqua;
+    width: 150px;
+    transform: rotate(90deg);
+    margin-left: auto;
+    MARGIN-RIGHT: auto;
+    margin-top: 100px;
+    position: relative;
+} */
+
+
+/* .col-lg-12 .title {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+} */
+
+.exp h5 {
+    color: #049dff;
+    text-align: right;
+}
+
+.exp h6 {
+    color: white;
+    text-align: right;
+}
+
+.available {
+    margin-top: 45px;
+}
+
+.available h5 {
+    color: #049dff;
+    text-align: left;
+
+}
+
+.available h6 {
+    color: white;
+    text-align: left;
+}
+
+#projects{
+    margin-top: 80px;
+}
+.projects {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.projects h4 {
+    text-align: center;
+    color: white;
+}
+
+.col-lg-4 {
+    height: 350px;
+    width: 300px;
+    margin-left: 66px;
+    margin-right: 66px;
+}
+
+.col-lg-4 h5 {
+    text-align: center;
+    color: white;
+}
+
+.col-lg-4 .json{
+      visibility: hidden;
+}
+
+.col-lg-4:hover .json{
+    visibility: visible;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -48%;
+    left: 6%;
+}
+
+.col-lg-4 img {
+    height: 300px;
+    width: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.4;
+}
+
+.col-lg-4 button {
+    position: relative;
+    visibility: visible;
+    top: -170px;
+    left: 115px;
+    border: 0px;
+    background-color: #049dff;
+    color: white;
+}
+
+.col-lg-4:hover button {
+    visibility: visible;
+    background-color: white;
+    color: #049dff;
+    transition: 1s ease;
+    border: 1px solid #049dff;
+}
+
+.col-lg-4:hover img{
+    opacity: 0.9;
+    transition: 1s ease;
+    box-shadow: 2px 1px 1px 1px#049dff;
+}
+
+.dot1 img {
+    height: 20px;
+    position: absolute;
+    left: 49.3%;
+    top: 26%;
+}
+
+
+.dot2 img {
+    height: 20px;
+    position: absolute;
+    left: 49.3%;
+    top: 42%;
+}
+
+.col-lg-12 .title {
+    position: relative;
+    overflow: hidden;
+    /* margin-top: 10px; */
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.col-lg-12 .title h4 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.title span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #049dff, #049dff);
+    animation: animate1 2s linear;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.title span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to bottom, #000000, #049dff);
+    animation: animate2 2s linear;
+    animation-delay: 1s;
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.title span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #049dff, #049dff);
+    animation: animate3 2s linear;
+}
+
+@keyframes animate3 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.title span:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background: linear-gradient(to top, #000000, #049dff);
+    animation: animate4 2s linear;
+    animation-delay: 1s;
+}
+
+@keyframes animate4 {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+/* --------------------------------------- */
+
+@media(min-width: 320px) and (max-width:549px) {
+
+    /* .col-lg-6{
+        border-right: 2px solid #049dff;
+    } */
+    .container .row {
+        margin: 10px 0px 10px 0px;
+        background-color: black;
+    }
+
+    #col1 {
+        border-right: 0px !important;
+    }
+
+    #col2 {
+        border-right: 0px !important;
+    }
+
+    .exp h5 {
+        color: #049dff;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .exp {
+        margin-top: 25px;
+    }
+
+    .exp h6 {
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .available h5 {
+        text-align: center;
+    }
+
+    .available h6 {
+        text-align: center;
+    }
+
+    .projects {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .col-lg-4 {
+        height: 380px;
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+
+    .col-lg-4 h5 {
+        font-size: 17px;
+    }
+
+    .dot2 img {
+        height: 20px;
+        position: absolute;
+        left: 49.3%;
+        top: 46%;
+    }
+    .col-lg-4:hover .json{
+        visibility: visible;
+        color: rgb(0, 0, 0);
+        position: relative;
+        top: -40%;
+        left: 6%;
+    }
+}

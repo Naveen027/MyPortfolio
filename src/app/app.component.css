@@ -1,0 +1,147 @@
+/* .container-fluid{
+    background-color: black;
+} */
+.container-fluid {
+    background-color: black;
+    height: 70px;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #049dff;
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+}
+.navbar-expand-lg{
+    padding: 0px;
+    background-color: black;
+}
+
+.nav-item{
+    margin: 10px;
+    border: 20px;
+    padding: 10px;
+}
+
+.navbar-brand img{
+margin-top: 0px;
+height: 80px;
+}
+
+.navbar-brand {
+    background-image: url('/src/assets/logo.gif');
+}
+
+.mynav{
+    margin-left: 50%;
+}
+/* 
+.desktop
+{
+    display: block;
+} */
+
+.mobile
+{
+    display: none;
+}
+
+#naveen{
+    display: none;
+}
+
+/*---------------------------------------*/
+
+.container-fluid .row .col-lg-12{
+    color: white;
+    text-align: center;
+}
+
+/* .container-fluid .row .col-lg-4 .contact,.follow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.container-fluid .row .col-lg-12 .designed{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* .col-lg-4 .follow i{
+    margin: 0px 12px 0px 12px;
+}
+
+.col-lg-4 .follow i:hover{
+    color:#049dff;
+    transition: 0.6s ease-in;
+} */
+
+/* .col-lg-4 a{
+    color: white;
+} */
+
+
+/* --------------------media queries--------------- */
+
+@media (min-width: 320px) and (max-width:549px){
+    .container{
+        height: 55px;
+    }
+    .navbar-toggler{
+        background-color: #67c4ffc4;
+    }
+    .navbar-toggler-icon{
+        height: 20px;
+        width: 20px;
+    }
+    .navbar-collapse{
+        /* background-color: black; */
+        height: 305px;
+        z-index: 9;
+        position: absolute;
+        top: 100%;
+    }
+   
+    .desktop{
+        display: none;
+    }
+
+    .mobile
+    {
+        display: block;
+        /* border: 2px solid #049dff; */
+        background-color: #222222;
+        position: relative;
+        width: 335px;
+    }
+    .nav-link{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .nav-link:hover{
+        color: #ffffff;
+        background-color: #049dff;
+    }
+    #naveen{
+        display: block;
+    }
+
+    #naveen h4{
+        color: #049dff;
+    }
+
+    #naveen a{
+        text-decoration: none;
+    }
+
+    .logo{
+        display: none;
+    }
+    .nav-link{
+        border-bottom:2px solid #049dff ;
+    }
+}
